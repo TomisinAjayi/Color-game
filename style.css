@@ -67,3 +67,14 @@ button:hover {
     color: white;
     background: steelblue;
 }
+/*responsivness*/
+@media (width: 320px) {
+    #reset {
+        padding: 0;
+    }
+}
+@media (max-width: 576px) {
+    #colordisplay {
+        font-size: 130%;
+    }
+}
